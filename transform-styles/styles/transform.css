@@ -1,0 +1,14 @@
+.container, .inner{
+    width: 150px;
+    height: 150px;
+    border: 2px solid khaki;
+}
+.container{
+    background-color: violet;
+   
+}
+.inner{
+    background-color: rgb(105, 188, 255);
+    transform: translate(50px, 50px) scale(0.5) rotate(45deg);
+ 
+}

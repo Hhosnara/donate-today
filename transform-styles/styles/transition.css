@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid lightgreen; 
+    background-color: violet; 
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.box:hover{
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
+}
