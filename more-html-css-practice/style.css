@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: center;
 }
-.overflow, .short-text, .my-intro{
+.overflow,  .my-intro{
     height: 400px;
     width: 100px;
     border: 5px solid rgb(73, 52, 206); 
@@ -60,4 +60,16 @@
     width: 100px;
     border: 5px solid rgb(207, 0, 207);
     overflow: scroll;
+    overflow-x: hidden;
+}
+
+.short-text{
+    white-space: nowrap;
+    width: 150px;
+    height: 50px;
+    border: 2px solid pink;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
 }
